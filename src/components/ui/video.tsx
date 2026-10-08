@@ -72,7 +72,7 @@ export default function Video({
                     <TimeDivider key="time-divider" />
                     <DurationDisplay key="duration-display" />
                     <ProgressControl key="progress-control" />
-                    <FullscreenToggle key="fullscreen-toggle" />
+                    <FullscreenToggle key="fullscreen-toggle" actions={{ toggleFullscreen: () => undefined }} />
                 </ControlBar>
                 <BigPlayButton position="center" />
             </Player>
